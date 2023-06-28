@@ -1,0 +1,11 @@
+.project {
+  width: 450;
+  height: 253px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px rgba(49, 49, 49, 0.35);
+  /* padding: 10px; */
+  margin-bottom: 10px;
+  overflow: hidden;
+
+}
