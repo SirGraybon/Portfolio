@@ -24,7 +24,7 @@ function Navbar() {
           <p className="contactLabel">GitHub</p>
         </div>
         <div>
-          <p className="contactLabel"> > </p>
+          <p className="contactLabel">  </p>
         </div>
       </a>
       <a target="_blank" href="https://www.linkedin.com/in/graydonritchie/" className="contactLink">
@@ -33,7 +33,7 @@ function Navbar() {
           <p className="contactLabel">LinkedIn</p>
         </div>
         <div>
-          <p className="contactLabel"> > </p>
+          <p className="contactLabel">  </p>
         </div>
       </a>
       <a target="_blank" href="mailto:graydonritchie@gmail.com" className="contactLink">
@@ -42,7 +42,7 @@ function Navbar() {
           <p className="contactLabel">Email me</p>
         </div>
         <div>
-          <p className="contactLabel"> > </p>
+          <p className="contactLabel">  </p>
         </div>
       </a>
       <a target="_blank" href="https://flowcv.com/resume/p3iowipl9s" className="contactLink">
@@ -51,7 +51,7 @@ function Navbar() {
           <p className="contactLabel">Resume</p>
         </div>
         <div>
-          <p className="contactLabel"> > </p>
+          <p className="contactLabel">  </p>
         </div>
       </a>
     </div>
