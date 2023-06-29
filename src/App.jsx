@@ -8,7 +8,6 @@ import "./styles/App.css";
 
 //COMPONENTs
 import Navbar from "./components/Navbar";
-import About from "./components/About";
 import ProjectsList from "./components/ProjectsList";
 
 //APP DECLARATION
@@ -20,7 +19,6 @@ function App() {
     <div className="content">
       <Navbar />
       <div className="body">
-        <About/>
         <ProjectsList/>
       </div>
     </div>

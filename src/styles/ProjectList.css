@@ -1,9 +1,10 @@
 
 .project-list {
   display: flex;
+  /* flex-direction: column; */
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 1000px;
+  width: 1250px;
   margin-top: 10px;
 
 
