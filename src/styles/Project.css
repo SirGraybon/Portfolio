@@ -34,12 +34,16 @@
   padding: 20px;
   z-index: 5;
   width: 100%;
-  height: 100%;
+  height: 25%;
   background-color: transparent;
   position:absolute;
-  transition: 0.4s;
+  transition: 0.2s;
+  opacity: 0;
+  /* visibility:collapse; */
 }
 .coverTitle:hover{
+  opacity: 1;
+  /* visibility:visible; */
   color: rgb(49, 49, 49);
   z-index: 5;
   width: 100%;
@@ -47,4 +51,25 @@
   background-color: rgba(222, 222, 222, 0.85);
   position:absolute;
   margin-bottom: 60px;
+}
+.innerCover {
+  display: flex;
+  /* box-sizing: border-box; */
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  /* color: transparent; */
+  /* padding: 20px; */
+  /* z-index: 5; */
+  /* width: 100%;
+  height: 100%; */
+  /* background-color: transparent; */
+  /* position:absolute; */
+  /* transition: 0.4s; */
+}
+
+.contactLogo {
+  width: 25px;
+  height: 25px;
+  padding-right: 10px;
 }

@@ -12,55 +12,23 @@ function ProjectsList() {
       gif: tweeter,
       description:
         "Tweeter is a simple, single-page Twitter clone built using JQuery, AJAX, HTML and CSS. Tweeter allows users to share their thoughts in real time and is presented in a modern minimalist style with tastefull CSS animations and transitions.",
+        url: "https://github.com/SirGraybon/tweeter"
       },
       {
         title: "Quik-a-nik",
         gif: quikanik,
         description:
-          "Tweeter is a simple, single-page Twitter clone built using JQuery, AJAX, HTML and CSS. Tweeter allows users to share their thoughts in real time and is presented in a modern minimalist style with tastefull CSS animations and transitions.",
+          "Quik-a-nik is a dynamic picnic delivery app developed in React Native for both web and Android simultaniously. Quik-a-nik takes advantage of both the Google maps and stripe payment API's to deliver a coherent e-commerce experience.",
+          url: "https://github.com/SirGraybon/quik-a-nik"
         },
         {
           title: "ThinkFast",
           gif: thinkfast,
           description:
-            "Tweeter is a simple, single-page Twitter clone built using JQuery, AJAX, HTML and CSS. Tweeter allows users to share their thoughts in real time and is presented in a modern minimalist style with tastefull CSS animations and transitions.",
+            "ThinkFast is a quiz building platform that allows users to craft and share their creations with the world. ThinkFast was built using JavaScript, HTML, CSS, jQuery and AJAX, and powered by Node, Express, postgreSQL in the back-end.",
+            url: "https://github.com/SirGraybon/ThinkFast"
     },
-    {
-      title: "Tweeter",
-      gif: tweeter,
-      description:
-        "Tweeter is a simple, single-page Twitter clone built using JQuery, AJAX, HTML and CSS. Tweeter allows users to share their thoughts in real time and is presented in a modern minimalist style with tastefull CSS animations and transitions.",
-      },
-      {
-        title: "Quik-a-nik",
-        gif: quikanik,
-        description:
-          "Tweeter is a simple, single-page Twitter clone built using JQuery, AJAX, HTML and CSS. Tweeter allows users to share their thoughts in real time and is presented in a modern minimalist style with tastefull CSS animations and transitions.",
-        },
-        {
-          title: "ThinkFast",
-          gif: thinkfast,
-          description:
-            "Tweeter is a simple, single-page Twitter clone built using JQuery, AJAX, HTML and CSS. Tweeter allows users to share their thoughts in real time and is presented in a modern minimalist style with tastefull CSS animations and transitions.",
-    },
-    {
-      title: "Tweeter",
-      gif: tweeter,
-      description:
-        "Tweeter is a simple, single-page Twitter clone built using JQuery, AJAX, HTML and CSS. Tweeter allows users to share their thoughts in real time and is presented in a modern minimalist style with tastefull CSS animations and transitions.",
-      },
-      {
-        title: "Quik-a-nik",
-        gif: quikanik,
-        description:
-          "Tweeter is a simple, single-page Twitter clone built using JQuery, AJAX, HTML and CSS. Tweeter allows users to share their thoughts in real time and is presented in a modern minimalist style with tastefull CSS animations and transitions.",
-        },
-        {
-          title: "ThinkFast",
-          gif: thinkfast,
-          description:
-            "Tweeter is a simple, single-page Twitter clone built using JQuery, AJAX, HTML and CSS. Tweeter allows users to share their thoughts in real time and is presented in a modern minimalist style with tastefull CSS animations and transitions.",
-    },
+    
   ];
 
   return (
@@ -72,6 +40,7 @@ function ProjectsList() {
             projectTitle={project.title}
             projectDescription={project.description}
             gif={project.gif}
+            url={project.url}
           />
         );
       })}
