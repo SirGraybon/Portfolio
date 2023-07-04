@@ -1,7 +1,7 @@
 .project {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   /* align-items: center; */
   width: 390px;
   height: 230px;
@@ -14,10 +14,8 @@
   background-color: rgba(49, 49, 49, 0.35);
   overflow: hidden;
   cursor: pointer;
-  
 }
 .gif {
-  
   width: 395px;
   height: 235px;
 }
@@ -34,23 +32,23 @@
   padding: 20px;
   z-index: 5;
   width: 100%;
-  height: 25%;
+  height: 75%;
   background-color: transparent;
-  position:absolute;
+  position: absolute;
   transition: 0.2s;
   opacity: 0;
   /* visibility:collapse; */
+  margin-bottom: 60px;
+  z-index: 5;
 }
-.coverTitle:hover{
+.coverTitle:hover {
   opacity: 1;
   /* visibility:visible; */
   color: rgb(49, 49, 49);
-  z-index: 5;
   width: 100%;
   height: 100%;
-  background-color: rgba(222, 222, 222, 0.85);
-  position:absolute;
-  margin-bottom: 60px;
+  background-color: rgba(222, 222, 222, 0.90);
+  position: absolute;
 }
 .innerCover {
   display: flex;
