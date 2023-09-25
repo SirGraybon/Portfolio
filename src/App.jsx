@@ -1,7 +1,7 @@
 //IMPORTs
 
 //REACT
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 //STYLEs
 import "./styles/App.css";
@@ -15,14 +15,14 @@ function App() {
   //RETURN
   return (
     <>
-    <div className="container">
-    <div className="content">
-      <Navbar />
-      <div className="body">
-        <ProjectsList/>
+      <div className="container">
+        <Navbar />
+        <div className="content">
+          {/* <div className="body"> */}
+          <ProjectsList />
+          {/* </div> */}
+        </div>
       </div>
-    </div>
-    </div>
     </>
   );
 }

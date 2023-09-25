@@ -32,7 +32,7 @@ function ProjectsList() {
 
   return (
     <div className="projects">
-    <h1>Projects</h1>
+    <div className="header">Projects</div>
       <ul className="project-list">
         {projects.map((project) => {
           return (

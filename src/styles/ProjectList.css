@@ -1,16 +1,39 @@
 
+/* @media only screen and (max-width: 1600px) {
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-top: 30px;
+  
+
+  }
+} */
+
+
 .project-list {
   display: flex;
-  /* flex-direction: column; */
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  width: 1250px;
-  margin-top: 30px;
-
-
-
+  width: auto;
+  
+  
+  
 }
 
 .projects {
+  margin-left: 300px;
+  /* margin-left: 330px; */
   margin-top: 30px;
+  width: 100%;
+  /* background-color: aqua; */
+
+}
+
+.header {
+font-size: 26pt;
+margin: 30px;
 }

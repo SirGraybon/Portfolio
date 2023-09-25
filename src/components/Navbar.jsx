@@ -10,7 +10,7 @@ function Navbar() {
   //RETURN STATEMENT
   return (
     <div className="navbar">
-      <h2>Graydon Ritchie</h2>
+      <div className="name">Graydon Ritchie</div>
       <p className="about">
         A full-stack developer with a strong foundation in human resources,
         equipped with comprehensive skills in web development and a passion for
