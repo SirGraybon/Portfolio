@@ -28,6 +28,7 @@ function ProjectsList() {
         "ThinkFast is a quiz building platform that allows users to craft and share their creations with the world. ThinkFast was built using JavaScript, HTML, CSS, jQuery and AJAX, and powered by Node, Express, postgreSQL in the back-end.",
       url: "https://github.com/SirGraybon/ThinkFast",
     },
+
   ];
 
   return (
