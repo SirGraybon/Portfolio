@@ -64,10 +64,11 @@
   border: none;
   background-color: transparent;
   margin-top: 8px;
+  scroll-behavior: smooth
   
 }
 .contactLink:hover {
-  background-color: #e2e4e5;
+  background-color: rgb(232, 208, 185);
 
 
 }

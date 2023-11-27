@@ -14,7 +14,7 @@ const PojectsPage = ()=> {
 
 
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <ProjectsList data={currentProjects} headline="Current Projects"/>
       <ProjectsList data={completedProjects} headline="Completed Projects"/>
     </div>

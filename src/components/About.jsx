@@ -1,16 +1,37 @@
 import "../styles/about.css";
+import avatar from "../assets/avatar.jpg";
 
-
-const About = ()=>{
+const About = () => {
   return (
-    <p className="about">
-    A full-stack developer with a strong foundation in human resources,
-    equipped with comprehensive skills in web development and a passion for
-    creating innovative digital solutions. Combines technical expertise with
-    a solid understanding of HR & business principles to deliver
-    user-centric and efficient web applications.
-  </p>
-  )
-}
+    <div id="about">
 
-export default About
+    <div  className="about">
+      <img className="avatar" src={avatar} alt="" />
+
+      <div className="about_box">
+        <div className="about_segment">
+          Driven by a passion for problem-solving and a love for technology, I
+          embarked on a transformative journey from the world of Human Resources
+          to become a seasoned full-stack developer.
+
+        </div>
+        <div className="about_segment">
+          With a unique blend of technical expertise and a deep understanding of
+          human dynamics, I bring a fresh perspective to every project. From
+          crafting elegant front-end interfaces to architecting robust back-end
+          systems, I thrive in the dynamic and ever-evolving landscape of
+          software development. My journey is a testament to the power of
+          curiosity and the belief that with dedication, one can master any
+          field. 
+
+        </div>
+        <div className="about_segment">
+        Let's build something extraordinary together!
+        </div>
+      </div>
+    </div>
+    </div>
+  );
+};
+
+export default About;

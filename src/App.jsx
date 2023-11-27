@@ -13,12 +13,12 @@ import About from "./components/About";
 
 //APP DECLARATION
 function App() {
-const [view, setView] = useState("Projects")
+  const [view, setView] = useState("Projects");
 
-//HELPER FUNCTIONs
-const viewSwitcher = (payload)=> {
-  setView(payload)
-}
+  //HELPER FUNCTIONs
+  const viewSwitcher = (payload) => {
+    setView(payload);
+  };
 
   //RETURN
   return (
@@ -26,8 +26,9 @@ const viewSwitcher = (payload)=> {
       <div className="container">
         <Navbar viewSwitcher={viewSwitcher} />
         <div className="content">
-          {view === "Projects" && <ProjectsPage />}
-          {view === "About" && <About />}
+          <About  />
+          <ProjectsPage />
+
         </div>
       </div>
     </>

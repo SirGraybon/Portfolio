@@ -12,13 +12,14 @@ function Navbar({ viewSwitcher }) {
     <div className="navbar">
       <div className="name">Graydon Ritchie</div>
 
-      <div className="navigation" onClick={() => viewSwitcher("About")}>
-        <p className="contactLabel">About</p>
-      </div>
 
-      <div className="navigation" onClick={() => viewSwitcher("Projects")}>
+      <a className="navigation" href="#about" >
+        <p className="contactLabel">About</p>
+      </a>
+      <a className="navigation" href="#projects" >
         <p className="contactLabel">Projects</p>
-      </div>
+      </a>
+
 
       <a
         target="_blank"
