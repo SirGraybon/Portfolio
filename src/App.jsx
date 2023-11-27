@@ -8,19 +8,26 @@ import "./styles/App.css";
 
 //COMPONENTs
 import Navbar from "./components/Navbar";
-import ProjectsList from "./components/ProjectsList";
+import ProjectsPage from "./components/ProjectsPage";
+import About from "./components/About";
 
 //APP DECLARATION
 function App() {
+const [view, setView] = useState("Projects")
+
+//HELPER FUNCTIONs
+const viewSwitcher = (payload)=> {
+  setView(payload)
+}
+
   //RETURN
   return (
     <>
       <div className="container">
-        <Navbar />
+        <Navbar viewSwitcher={viewSwitcher} />
         <div className="content">
-          {/* <div className="body"> */}
-          <ProjectsList />
-          {/* </div> */}
+          {view === "Projects" && <ProjectsPage />}
+          {view === "About" && <About />}
         </div>
       </div>
     </>
