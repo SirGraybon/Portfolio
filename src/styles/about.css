@@ -1,14 +1,15 @@
 #about {
   margin-top: 60px;
-  width: 1500px;
-
+  width: 100%;
+  
   
 }
 
 .about {
   display: flex;
-  align-items: center;
-  margin-bottom: 40px;
+  /* flex-direction: column; */
+
+  flex-direction: column;
   /* width: 100%; */
   /* background-color: aqua; */
 }
@@ -24,10 +25,9 @@
   justify-content: center;
   border-radius: 15px;
   background-color: rgb(232, 208, 185);
-  margin-left: 50px;
   width: 100%;
-  height: 150px;
-  padding: 30px;
+  height: auto;
+  padding: 10px 10px 10px 10px;
   font-size: 15pt;
 }
 .about_box_full {
@@ -36,13 +36,15 @@
   justify-content: space-between;
   /* width: 100%; */
   height: auto;
-  padding: 0 40px 0 40px ;
+  /* padding: 0 40px 0 40px ; */
   /* margin-right: 50px; */
   border-radius: 15px;
   font-size: 15pt;
 }
 
 .about_segment {
+  text-align: justify;
+  /* text-justify: inter-word; */
   margin-bottom: 1rem;
 }
 
@@ -52,4 +54,25 @@
   height: 250px;
   width: 250px;
   object-fit: cover;
+}
+
+.spotlight {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 1250px){
+  #about {
+    width: 500px;
+    align-items: center;
+  }
+  .about_box_full {
+
+  }
+  .spotlight {
+    flex-direction: column;
+  }
+
 }

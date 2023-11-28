@@ -17,6 +17,11 @@ import SQL from "../assets/logos/SQL.png";
 import TypeScript from "../assets/logos/typescript.png";
 import vite from "../assets/logos/vite.png";
 import openai from "../assets/logos/openai.png";
+import sass from "../assets/logos/sass.png"
+import jest from "../assets/logos/jest.png"
+import mocha from "../assets/logos/mocha.png"
+import rspec from "../assets/logos/rspec.png"
+import mongo from "../assets/logos/mongo.png"
 
 
 
@@ -70,25 +75,26 @@ export const skills = [
   { label: "JavaScript", logo:  JavaScript  },
   { label: "TypeScript", logo:  TypeScript  },
   { label: "OpenAI", logo:  openai },
-  { label: "SQL", logo:  SQL },
-  { label: "HTML", logo:  HTML  },
+  { label: "PostgreSQL", logo:  SQL },
+  { label: "MongoDB", logo: mongo},
   { label: "NodeJS", logo:  Node  },
+  { label: "HTML", logo:  HTML  },
   { label: "CSS", logo:  CSS  },
-  { label: "Ruby on Rails", logo:  ruby  },
-  { label: "git", logo:  git  },
   { label: "React", logo:  React  },
   { label: "React Native", logo:  React  },
-  { label: "express", logo:  express  },
+  { label: "Ruby on Rails", logo:  ruby  },
   { label: "JQuery", logo:  JQuery  },
   { label: "Vite", logo:  vite  },
+  { label: "git", logo:  git  },
+  { label: "Jest",  logo: jest},
+  { label: "Mocha & Chai", logo: mocha},
+  { label: "SASS", logo: sass},
+  { label: "Rspec", logo: rspec},
+  { label: "express"  },
   { label: "AJAX"},
   { label: "EJS"},
   { label: "Active Record"},
-  { label: "SASS"},
-  { label: "Jest"},
   { label: "Cyprus"},
-  { label: "Mocha & Chai"},
-  { label: "Rspec"},
 ];
 
 

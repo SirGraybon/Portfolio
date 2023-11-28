@@ -14,19 +14,21 @@ import SkillsList from "./components/SkillsList";
 
 //APP DECLARATION
 function App() {
-  const [view, setView] = useState("Projects");
+
+  const [width, setWidth] = useState(window.innerWidth)
 
   //HELPER FUNCTIONs
-  const viewSwitcher = (payload) => {
-    setView(payload);
-  };
+ 
+
+  addEventListener("resize", (event) => {setWidth(window.innerWidth)});
 
   //RETURN
   return (
     <>
       <div className="container">
-        <Navbar viewSwitcher={viewSwitcher} />
+        {width > 900 && <Navbar  />}
         <div className="content">
+        {width}
           <About  />
           <SkillsList/>
           <ProjectsPage />

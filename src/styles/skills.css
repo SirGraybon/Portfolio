@@ -5,6 +5,7 @@
   padding-bottom: 50px;
   /* height: 50px; */
   width: 1500px;
+  /* padding: 0 30px 50px 30px; */
 
 
 }
@@ -22,7 +23,8 @@
   border: none;
   background-color: transparent;
   margin: 10px;
-  scroll-behavior: smooth
+  cursor: default;
+  
   
 }
 .skills-list {
@@ -59,4 +61,13 @@
 .header {
   font-size: 26pt;
   margin: 30px;
+  }
+
+  @media only screen and (max-width: 1250px){
+    .skills_container {
+      width: 500px;
+    }
+    .skills-list {
+      
+    }
   }
