@@ -4,7 +4,7 @@ import avatar from "../assets/avatar.jpg";
 const About = () => {
   return (
     <div id="about">
-      <div className="header">About me</div>
+         <div className="header">About me </div>
 
       <div className="about">
         <div className="spotlight">

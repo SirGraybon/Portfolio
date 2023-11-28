@@ -1,0 +1,44 @@
+.footer_contactGroup {
+  display: flex;
+  align-items: center;
+
+
+}
+.footer_contactLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px ;
+  padding-right: 10px ;
+  transition: 0.2s;
+  border: none;
+  background-color: transparent;
+  margin-top: 8px;
+  
+}
+
+.footer_contactLink:hover {
+  background-color: rgb(232, 208, 185);
+
+
+}
+
+.footer_contactLogo {
+  width: 25px;
+  height: 25px;
+  padding-right: 10px;
+}
+
+.footer_contactLabel {
+  font-size: 15pt;
+  color: #424959;
+}
+
+.footer_nav_grouping{
+  display: flex;
+  /* flex-direction: column; */
+  margin: 0px 0 50px 0;
+}

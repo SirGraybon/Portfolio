@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar";
 import ProjectsPage from "./components/ProjectsPage";
 import About from "./components/About";
 import SkillsList from "./components/SkillsList";
+import Footer from "./components/Footer";
 
 //APP DECLARATION
 function App() {
@@ -26,12 +27,14 @@ function App() {
   return (
     <>
       <div className="container">
-        {width > 900 && <Navbar  />}
+        {width > 1000 && <Navbar  />}
         <div className="content">
-        {width}
+        <div className="header">{width < 1000 && "Graydon Ritchie"} </div>
           <About  />
           <SkillsList/>
           <ProjectsPage />
+          {width < 1000 && <Footer/>}
+          
 
         </div>
       </div>
