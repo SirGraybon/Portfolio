@@ -7,8 +7,8 @@ const ProjectsList = (props) => {
   const data = props.data;
 
   return (
-    <>     <div className="header">{props.headline}</div>
-
+    <>
+      <div className="header">{props.headline}</div>
       <ul className="project-list">
         {props.data.map((project) => {
           return (

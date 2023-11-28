@@ -4,6 +4,20 @@ import thinkfast from "../assets/thinkfast.gif";
 import black_jack from "../assets/black_jack.png";
 import dream_studio from "../assets/Dream_studio.jpg";
 
+import CSS from "../assets/logos/CSS.png";
+import express from "../assets/logos/express.png";
+import git from "../assets/logos/git.png";
+import HTML from "../assets/logos/HTML.png";
+import JavaScript from "../assets/logos/JavaScript.png";
+import JQuery from "../assets/logos/JQUERY.png";
+import Node from "../assets/logos/node.png";
+import React from "../assets/logos/React.png";
+import ruby from "../assets/logos/ruby.png";
+import SQL from "../assets/logos/SQL.png";
+import TypeScript from "../assets/logos/typescript.png";
+import vite from "../assets/logos/vite.png";
+import openai from "../assets/logos/openai.png";
+
 
 
 export const completedProjects = [
@@ -50,6 +64,31 @@ export const currentProjects = [
   }
 
   
+];
+
+export const skills = [
+  { label: "JavaScript", logo:  JavaScript  },
+  { label: "TypeScript", logo:  TypeScript  },
+  { label: "OpenAI", logo:  openai },
+  { label: "SQL", logo:  SQL },
+  { label: "HTML", logo:  HTML  },
+  { label: "NodeJS", logo:  Node  },
+  { label: "CSS", logo:  CSS  },
+  { label: "Ruby on Rails", logo:  ruby  },
+  { label: "git", logo:  git  },
+  { label: "React", logo:  React  },
+  { label: "React Native", logo:  React  },
+  { label: "express", logo:  express  },
+  { label: "JQuery", logo:  JQuery  },
+  { label: "Vite", logo:  vite  },
+  { label: "AJAX"},
+  { label: "EJS"},
+  { label: "Active Record"},
+  { label: "SASS"},
+  { label: "Jest"},
+  { label: "Cyprus"},
+  { label: "Mocha & Chai"},
+  { label: "Rspec"},
 ];
 
 

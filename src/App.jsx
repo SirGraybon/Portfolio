@@ -10,6 +10,7 @@ import "./styles/App.css";
 import Navbar from "./components/Navbar";
 import ProjectsPage from "./components/ProjectsPage";
 import About from "./components/About";
+import SkillsList from "./components/SkillsList";
 
 //APP DECLARATION
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Navbar viewSwitcher={viewSwitcher} />
         <div className="content">
           <About  />
+          <SkillsList/>
           <ProjectsPage />
 
         </div>
