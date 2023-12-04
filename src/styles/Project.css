@@ -70,3 +70,9 @@
   height: 25px;
   padding-right: 10px;
 }
+@media (prefers-color-scheme: dark) {
+  .project {
+    box-shadow: 5px 5px 9px rgb(44, 44, 44);;
+
+  }
+}

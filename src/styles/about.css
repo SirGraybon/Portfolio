@@ -74,3 +74,11 @@
     width: 500px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .about_box {
+    color: #213547;
+    background-color: rgb(202, 203, 207);
+
+  }
+}

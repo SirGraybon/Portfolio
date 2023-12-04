@@ -15,27 +15,27 @@ import Footer from "./components/Footer";
 
 //APP DECLARATION
 function App() {
-
-  const [width, setWidth] = useState(window.innerWidth)
+  const [width, setWidth] = useState(window.innerWidth);
 
   //HELPER FUNCTIONs
- 
 
-  addEventListener("resize", (event) => {setWidth(window.innerWidth)});
+  addEventListener("resize", (event) => {
+    setWidth(window.innerWidth);
+  });
 
   //RETURN
   return (
     <>
       <div className="container">
-        {width > 1000 && <Navbar  />}
-        <div className="content">
-        <div className="header">{width < 1000 && "Graydon Ritchie"} </div>
-          <About  />
-          <SkillsList/>
-          <ProjectsPage />
-          {width < 1000 && <Footer/>}
-          
-
+        {width > 1000 && <Navbar />}
+        <div className="content_container">
+          <div className="content">
+            <div className="header">{width < 1000 && "Graydon Ritchie"} </div>
+            <About />
+            <SkillsList />
+            <ProjectsPage />
+            {width < 1000 && <Footer />}
+          </div>
         </div>
       </div>
     </>
